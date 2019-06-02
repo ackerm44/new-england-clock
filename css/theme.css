@@ -1,6 +1,9 @@
 p, h1, h2, h3, h4, h5, h6, div, a {
     font-family: 'Open Sans', sans-serif;
 }
+h3 {
+    font-size: 30px;
+}
 
 body {
     text-align: center;
@@ -18,7 +21,11 @@ nav a {
     color: black;
     margin: 0 20px;
     font-size: 20px;
+    font-weight: bold;
     text-transform: uppercase;
+}
+nav a:hover {
+    color: gray;
 }
 .section {
     padding: 20px 0;
@@ -51,7 +58,7 @@ footer {
     border-top: 1px solid;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .boxes {
         flex-direction: row;
     }
