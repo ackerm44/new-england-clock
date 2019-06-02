@@ -23,6 +23,10 @@ nav a {
 .section {
     padding: 20px 0;
 }
+.banner {
+    background: url(img/hm-mantle.jpg) no-repeat fixed center;
+    height: 300px;
+}
 
 /* Services */
 #services {
