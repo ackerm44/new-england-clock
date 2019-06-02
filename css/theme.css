@@ -24,7 +24,7 @@ nav a {
     padding: 20px 0;
 }
 .banner {
-    background: url(img/hm-mantle.jpg) no-repeat fixed center;
+    background: url(../img/hm-mantle.jpg) no-repeat fixed center;
     height: 300px;
 }
 
@@ -38,6 +38,9 @@ nav a {
 }
 .iconBox {
     margin: 20px;
+}
+.iconBox img {
+    max-height: 35px;
 }
 .fas {
     font-size: 2.2em;
