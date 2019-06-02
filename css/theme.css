@@ -14,13 +14,13 @@ nav {
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 nav a {
     text-decoration: none;
     color: black;
     margin: 0 20px;
-    font-size: 20px;
+    font-size: 35px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -31,7 +31,7 @@ nav a:hover {
     padding: 20px 0;
 }
 .banner {
-    background: url(../img/hm-mantle.jpg) no-repeat fixed center;
+    background: url(../img/hm-mantle.jpg) no-repeat center;
     background-size: cover;
     height: 350px;
 }
@@ -61,5 +61,16 @@ footer {
 @media (min-width: 768px) {
     .boxes {
         flex-direction: row;
+    }
+}
+@media (min-width: 1024px) {
+    .banner {
+        background-attachment: fixed;
+    }
+    nav {
+        justify-content: center;
+    }
+    nav a {
+        font-size: 20px;
     }
 }
