@@ -7,6 +7,7 @@ h3 {
 
 body {
     text-align: center;
+    margin: 0;
 }
 
 nav {
@@ -66,11 +67,5 @@ footer {
 @media (min-width: 1024px) {
     .banner {
         background-attachment: fixed;
-    }
-    nav {
-        justify-content: center;
-    }
-    nav a {
-        font-size: 20px;
     }
 }

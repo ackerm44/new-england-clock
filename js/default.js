@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    $('#contactForm').load("../contactForm.html");
+
+
     let date = new Date();
     let year = date.getFullYear();
 
