@@ -2,10 +2,21 @@ p, h1, h2, h3, h4, h5, h6, div, a {
     font-family: 'Open Sans', sans-serif;
 }
 
-a {
-    text-decoration: none;
+body {
+    text-align: center;
 }
 
 nav {
-    
+    background: #C8A644;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    font-size: 20px;
+    text-transform: uppercase;
 }
