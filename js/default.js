@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#contactForm').load("contactForm.html");
+    // $('#contactForm').load("contactForm.html");
 
 
     let date = new Date();
