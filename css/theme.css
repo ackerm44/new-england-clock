@@ -29,7 +29,7 @@ nav a:hover {
     color: gray;
 }
 .section {
-    padding: 20px 0;
+    padding: 20px 10px;
 }
 .banner {
     background: url(../img/hm-mantle.jpg) no-repeat center;
