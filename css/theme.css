@@ -6,9 +6,11 @@ p, h5 {
 }
 h3 {
     font-size: 30px;
+    margin: 10px 0;
 }
 a {
     text-decoration: none;
+    color: black;
 }
 a:hover {
     color: gray;
@@ -40,7 +42,7 @@ nav {
 }
 nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 0 20px;
     font-size: 20px;
     font-weight: bold;
@@ -52,7 +54,17 @@ nav a {
 .banner {
     background: url(../img/hm-mantle.jpg) no-repeat center;
     background-size: cover;
-    height: 350px;
+    height: 3525px;
+}
+#about div {
+    margin: 50px 0 0; 
+}
+.button {
+    background: #396180;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-size: 22px;
 }
 
 /* Services */
@@ -62,7 +74,7 @@ nav a {
 .boxes {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
