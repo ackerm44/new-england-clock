@@ -15,6 +15,7 @@ body {
 }
 h2 {
     color: #396180;
+    font-weight: 100;
 }
 
 nav {
@@ -51,6 +52,10 @@ nav a:hover {
 .boxes {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .iconBox {
     margin: 20px;
