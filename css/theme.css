@@ -7,6 +7,12 @@ p, h5 {
 h3 {
     font-size: 30px;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+}
 
 body {
     text-align: center;
@@ -40,9 +46,6 @@ nav a {
     font-weight: bold;
     text-transform: uppercase;
 }
-nav a:hover {
-    color: gray;
-}
 .section {
     padding: 20px 10px;
 }
@@ -70,6 +73,9 @@ nav a:hover {
 }
 .iconBox img {
     max-height: 35px;
+}
+#dropoff .iconBox {
+    padding: 0 30px;
 }
 .fas {
     font-size: 2.2em;
