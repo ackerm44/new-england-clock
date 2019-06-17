@@ -1,6 +1,9 @@
 p, h1, h2, h3, h4, h5, h6, div, a {
     font-family: 'Open Sans Condensed', sans-serif;
 }
+p {
+    font-size: 20px;
+}
 h3 {
     font-size: 30px;
 }
@@ -8,6 +11,10 @@ h3 {
 body {
     text-align: center;
     margin: 0;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 #logo {
     width: 300px;
