@@ -59,6 +59,7 @@ nav a:hover {
 }
 .iconBox {
     margin: 20px;
+    flex: 1 1 0;
 }
 .iconBox img {
     max-height: 35px;
