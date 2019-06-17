@@ -54,7 +54,7 @@ nav a {
 .banner {
     background: url(../img/hm-mantle.jpg) no-repeat center;
     background-size: cover;
-    height: 3525px;
+    height: 325px;
 }
 #about div {
     margin: 50px 0 0; 
@@ -67,8 +67,7 @@ nav a {
     font-size: 22px;
 }
 
-/* Services */
-#services {
+#services, #contact {
     background: #ebebeb;
 }
 .boxes {
