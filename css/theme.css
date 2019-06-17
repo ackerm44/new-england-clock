@@ -9,6 +9,13 @@ body {
     text-align: center;
     margin: 0;
 }
+#logo {
+    width: 300px;
+    margin-top: 20px;
+}
+h2 {
+    color: #396180;
+}
 
 nav {
     background: #C8A644;
