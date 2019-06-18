@@ -1,6 +1,12 @@
 $(document).ready(function() {
-    // $('#contactForm').load("contactForm.html");
+    let contactSct = $('#contact').scrollTop();
 
+    $(".button").click(function(e) {
+        e.preventDefault();
+        $('body').animate({
+            scrollTop: contactSct
+        }, 2000);
+    });
 
     let date = new Date();
     let year = date.getFullYear();
