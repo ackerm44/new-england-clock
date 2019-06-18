@@ -1,8 +1,9 @@
 $(document).ready(function() {
-    let contactSct = $('#contact').scrollTop();
+    let contactSct = $('#contact').offset();
 
     $(".button").click(function(e) {
         e.preventDefault();
+        console.log(contactSct);
         $('body').animate({
             scrollTop: contactSct
         }, 2000);
