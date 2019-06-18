@@ -3,8 +3,7 @@ $(document).ready(function() {
 
     $(".button").click(function(e) {
         e.preventDefault();
-        console.log(contactSct);
-        $("html, body").animate({ scrollTop: "300px" }, 2000);
+        $("html, body").animate({ scrollTop: contactSct}, 2000);
     });
 
     let date = new Date();
