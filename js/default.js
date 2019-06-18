@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    let contactSct = $('#contact').offset();
+    let contactSct = $('#contact').offset().top;
 
     $(".button").click(function(e) {
         e.preventDefault();
