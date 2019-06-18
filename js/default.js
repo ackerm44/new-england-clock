@@ -1,9 +1,10 @@
 $(document).ready(function() {
     $("nav a").click(function(e) {
         e.preventDefault();
-        let sectionTop = $(this).attr('href').offset().top;
+        let sectionTop = $($(this).attr('href')).offset().top;
+        console.log(sectionTop);
         $("html, body").animate({ scrollTop: sectionTop}, 2000);
-    })
+    });
 
 
 
