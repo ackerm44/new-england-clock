@@ -73,7 +73,7 @@ nav a {
 .boxes {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
@@ -123,6 +123,7 @@ footer {
 @media (min-width: 768px) {
     .boxes {
         flex-direction: row;
+        align-items: flex-start;
     }
     #contact .contactDetails {
         text-align: left;
