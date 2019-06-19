@@ -78,6 +78,18 @@ nav a {
     max-width: 1000px;
     margin: 0 auto;
 }
+#contact .boxes {
+    max-width: 680px;
+}
+#contact .boxes:first-child {
+    text-align: left;
+}
+#contact .boxes:last-child {
+    text-align: right;
+}
+#contact i.fas {
+    font-size: 22px;
+}
 .iconBox {
     margin: 20px;
     flex: 1 1 0;
@@ -93,6 +105,19 @@ nav a {
 }
 .hours p {
     margin: 10px 0;
+}
+.map {
+    overflow:hidden;
+    padding-bottom:70%;
+    position:relative;
+    height:0;
+}
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 footer {
