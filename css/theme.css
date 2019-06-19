@@ -78,15 +78,11 @@ nav a {
     max-width: 1000px;
     margin: 0 auto;
 }
-#contact .boxes {
-    max-width: 680px;
+
+#contact .location * {
+    margin: 5px 0;
 }
-#contact .boxes:first-child {
-    text-align: left;
-}
-#contact .boxes:last-child {
-    text-align: right;
-}
+    
 #contact i.fas {
     font-size: 22px;
 }
@@ -127,6 +123,12 @@ footer {
 @media (min-width: 768px) {
     .boxes {
         flex-direction: row;
+    }
+    #contact .contactDetails {
+        text-align: left;
+    }
+    #contact .location {
+        text-align: right;
     }
 }
 @media (min-width: 1024px) {
