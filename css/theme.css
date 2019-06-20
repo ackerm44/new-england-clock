@@ -4,6 +4,10 @@ p, h1, h2, h3, h4, h5, h6, div, a {
 p, h5 {
     font-size: 20px;
 }
+h2 {
+    color: #396180;
+    font-weight: 100;
+}
 h3 {
     font-size: 30px;
     margin: 10px 0;
@@ -28,10 +32,7 @@ body {
     width: 300px;
     margin-top: 20px;
 }
-h2 {
-    color: #396180;
-    font-weight: 100;
-}
+
 
 nav {
     background: #C8A644;
