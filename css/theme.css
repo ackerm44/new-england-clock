@@ -89,7 +89,8 @@ nav a {
 }
     
 #contact i.fas {
-    font-size: 22px;
+    font-size: 32px;
+    margin-right: 15px;
 }
 .iconBox {
     margin: 20px;
@@ -130,9 +131,9 @@ footer {
         flex-direction: row;
         align-items: flex-start;
     }
-    #contact .contactDetails {
+    /* #contact .contactDetails {
         text-align: left;
-    }
+    } */
     #contact .location {
         text-align: right;
     }
